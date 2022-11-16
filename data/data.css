@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Quicksand:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Quicksand";
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+header {
+  background-color: white;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: 1px 1px 6px rgba(1, 1, 1, 0.4);
+  z-index: 999;
+}
+
+nav {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+nav .nav-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+nav .nav-top .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .nav-top .logo a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+nav .nav-top .logo a:hover {
+  color: #42c2ff;
+  opacity: 0.7;
+}
+
+nav .nav-top .logo a img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav .nav-top .logo a h1 {
+  font-weight: bold;
+}
+
+nav .nav-top .search-bar {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+nav .nav-top .search-bar input {
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+nav .nav-top .search-bar a button {
+  width: 60px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  padding: 3px;
+  transition: all 0.3s ease 0s;
+}
+
+nav .nav-top .search-bar a button:hover {
+  background: #42c2ff;
+  opacity: 0.7;
+}
+
+nav .nav-top .search-bar a img {
+  width: 25px;
+}
+/* Penutup Header */
+
+/* Content */
+
+/* Penutup Content */
+
+/* Responsive */
+/* Tablet */
+@media screen and (max-width: 1145px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  nav .nav-top .logo h1 {
+    display: none;
+  }
+
+  nav .nav-top search-bar {
+    width: 60%;
+  }
+}
